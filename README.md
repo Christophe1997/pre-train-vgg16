@@ -5,7 +5,7 @@ What I do is just wrapping it to call it more easy, and I also give relu1\_1 to 
 
 ## Usage ##
 
-First, download the vgg16_weights.npz in [here](2).
+First, download the vgg16_weights.npz [here](2).
 
     >> from vgg16 import vgg16
     >> vgg16.predict('.vgg16/Greater-Swiss-Mountain-dog.jpg')
