@@ -8,7 +8,7 @@ What I do is just wrapping it to call it more easy, and I also give relu1\_1 to 
 First, download the vgg16_weights.npz [here](2).
 
     >> from vgg16 import vgg16
-    >> vgg16.predict('.vgg16/Greater-Swiss-Mountain-dog.jpg')
+    >> vgg16.predict('./vgg16/Greater-Swiss-Mountain-dog.jpg')
     Greater Swiss Mountain dog 0.699447
     EntleBucher 0.176884
     Appenzeller 0.0887003
